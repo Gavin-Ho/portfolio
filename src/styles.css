@@ -1,0 +1,96 @@
+h1 {
+    color: #312E28;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+}
+
+body {
+    font-size: 1rem;
+    line-height: 1.75rem;
+    font-weight: 300;
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+}
+
+
+/* Avatar Animation */
+
+.avatar-wobble {
+    animation: wobble 8s ease-in-out alternate infinite;
+}
+
+@keyframes wobble {
+    0% {
+        border-radius: 250px 750px 250px 750px / 750px 250px 750px 250px;
+    }
+
+    50% {
+        border-radius: 750px 250px 750px 250px / 250px 750px 250px 750px;
+    }
+
+    100% {
+        border-radius: 250px 750px 250px 750px / 750px 250px 750px 250px;
+    }
+}
+
+.photo {
+    display: flex;
+}
+
+.photo img {
+    margin: 0 auto;
+}
+
+.headline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero {
+    flex-direction: column-reverse;
+    margin-top: 100px;
+    gap: 1em;
+}
+
+.headline-text {
+    margin: 0 auto;
+}
+
+.email-button {
+    display: flex;
+    justify-content: right;
+}
+
+@media (min-width: 767px) {
+    .hero {
+        flex-direction: row;
+        gap: 0;
+    }
+
+    .photo img {
+        margin: 0;
+        margin-left: auto;
+    }
+
+    .headline-text {
+        margin: 0;
+    }
+
+    .page-border {
+        padding: 2em;
+    }
+}
