@@ -15,12 +15,13 @@ export default function AboutMe() {
             <div className="flex flex-col md:flex-row h-full md:h-screen w-[85%] max-w-5xl justify-center md:justify-between md:items-center">
 
 
-                <div data-aos="fade-up" data-aos-duration="2000" className="flex w-full md:w-[40%] my-12 justify-center items-center">
-                    <img className="text-center w-[300px] md:w-full rounded-3xl" src="../images/me03.jpg" alt="Me" />
+
+                <div data-aos="fade-up" data-aos-duration="2000" className="flex w-full md:w-[35%] my-12 justify-center items-center">
+                    <img className="text-center w-[350px] md:w-full avatar-wobble" src="../images/me.png" alt="Me" />
                 </div>
 
 
-                <div data-aos="fade-up" data-aos-duration="2000" className="flex flex-col md:h-[40%] md:w-[50%] justify-center">
+                <div data-aos="fade-up" data-aos-duration="2000" className="flex flex-col md:h-[40%] md:w-[55%] justify-center">
 
 
                     <div className="my-4">
@@ -46,6 +47,7 @@ export default function AboutMe() {
 
 
                 </div>
+
 
 
 

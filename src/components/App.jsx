@@ -6,6 +6,7 @@ import Projects from "./Projects";
 import PageDivider from "./PageDivider";
 import ToolKit from "./Toolkit";
 import Footer from "./Footer";
+import ContactMe from "./ContactMe";
 
 export default function App() {
 
@@ -20,6 +21,7 @@ export default function App() {
             <PageDivider />
             <ToolKit />
             <PageDivider />
+            <ContactMe />
             <Footer />
         </div>
     );

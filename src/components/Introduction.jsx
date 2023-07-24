@@ -12,8 +12,11 @@ export default function Introduction() {
 
             <div className="flex flex-col md:flex-row h-screen w-[85%] max-w-5xl justify-center md:justify-between md:items-center">
 
+                <div className="flex md:w-[35%] justify-center items-center mb-6">
+                    <img className="text-center w-[350px] md:w-full" src="../images/undraw_drink_coffee_v3au.png" alt="Me" />
+                </div>
 
-                <div className="flex flex-col md:h-[40%] md:w-[50%] justify-center mb-6">
+                <div className="flex flex-col md:h-[40%] md:w-[55%] justify-center mb-6">
 
 
                     <div className="">
@@ -43,9 +46,7 @@ export default function Introduction() {
                 </div>
 
 
-                <div className="flex md:w-[35%] justify-center items-center">
-                    <img className="text-center w-[350px] md:w-full avatar-wobble" src="../images/me.png" alt="Me" />
-                </div>
+
 
 
             </div >

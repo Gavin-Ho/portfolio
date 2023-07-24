@@ -122,6 +122,48 @@ export default function Projects() {
                 </div>
 
 
+                <div className="flex flex-col w-full md:flex-row md:justify-between items-center mt-32">
+
+
+                    <div data-aos="zoom-in-right" data-aos-duration="1500" className="w-[80%] md:w-[45%]">
+                        <img className="rounded-3xl" src="../images/smartmockups_lkgea1gy.jpg" alt="Wordle-frontend"></img>
+                    </div>
+
+
+                    <div data-aos="zoom-in-left" data-aos-duration="1500" className="flex flex-col h-full w-full md:w-[45%] text-center md:text-left justify-center">
+                        <h1 className="my-4">
+                            Technical Services Signage
+                        </h1>
+
+
+                        <p className="">
+                            A signage that displays information about UVic's computing facilities.
+                            Includes the computer lab schedule, available software programs, building maps and more.
+                        </p>
+
+
+                        <div className="my-4">
+                            <ul className="flex flex-row justify-center md:justify-start items-center text-sm md:text-md">
+                                <li className="border-2 rounded-[2rem] mr-2 border-[#7e8e7c79]">
+                                    <div className="px-3 py-1 md:px-4 md:py-2">HTML</div>
+                                </li>
+                                <li className="border-2 rounded-[2rem] mr-2 border-[#7e8e7c79]">
+                                    <div className="px-3 py-1 md:px-4 md:py-2">CSS</div>
+                                </li>
+                                <li className="border-2 rounded-[2rem] mr-2 border-[#7e8e7c79]">
+                                    <div className="px-3 py-1 md:px-4 md:py-2">JavaScript</div>
+                                </li>
+                                <li className="border-2 rounded-[2rem] mr-2 border-[#7e8e7c79]">
+                                    <div className="px-3 py-1 md:px-4 md:py-2">Bootstrap</div>
+                                </li>
+                            </ul>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
             </div>
         </div>
     );
