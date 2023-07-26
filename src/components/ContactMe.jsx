@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
-import { FaLinkedin, FaGithub, FaAngleDown } from "react-icons/fa";
+import React from 'react';
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 export default function ContactMe() {
 
 
     return (
-        <div className="flex flex-col w-full h-full bg-[#9ebb9a63] justify-center items-center">
+        <div id="contact" className="flex flex-col w-full h-full bg-[#9ebb9a63] justify-center items-center">
 
 
             <div className="flex flex-col md:flex-row h-full w-[85%] max-w-5xl justify-center md:justify-between md:items-center my-24">
@@ -27,7 +27,7 @@ export default function ContactMe() {
                                 <a href="https://www.linkedin.com/in/gavinjsho" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
                             </li>
                             <li className="hover:text-[#4c7a47] mr-8">
-                                <a href="" target="_blank" rel="noopener noreferrer"><MdEmail /></a>
+                                <a href="/#" target="_blank" rel="noopener noreferrer"><MdEmail /></a>
                             </li>
                         </ul>
                     </div>

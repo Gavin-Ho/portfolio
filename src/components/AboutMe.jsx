@@ -9,10 +9,10 @@ export default function AboutMe() {
     }, []);
 
     return (
-        <div className="flex justify-center">
+        <div id="about" className="flex justify-center">
 
 
-            <div className="flex flex-col md:flex-row h-full md:h-screen w-[85%] max-w-5xl justify-center md:justify-between md:items-center">
+            <div className="flex flex-col md:flex-row h-full w-[85%] max-w-5xl justify-center md:justify-between md:items-center">
 
 
 
@@ -25,7 +25,7 @@ export default function AboutMe() {
 
 
                     <div className="my-4">
-                        <h1>About Me</h1>
+                        <h1 className="">About Me</h1>
                     </div>
 
                     <div className="text-lg">

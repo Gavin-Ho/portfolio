@@ -26,20 +26,21 @@ export default function Introduction() {
 
 
                     <div className="my-5">
-                        Welcome to my portfolio! I'm a <span className="font-semibold text-[#73a86c]">full stack developer</span> based in Victoria, British Columbia. Check out some of my favourite personal projects below.
+                        Welcome to my portfolio! I'm a <span className="font-semibold text-[#73a86c]">full stack developer</span> based in Victoria, British Columbia.
+                        Check out a couple of my favourite personal projects below!
                     </div>
 
 
-                    <div className="flex flex-row text-[#4F473B] text-3xl">
+                    <div className="flex flex-row text-[#73a86c] text-3xl">
                         <ul className="flex my-2">
-                            <li className="hover:text-[#312E28] mr-8">
+                            <li className="hover:text-[#4c7a47] mr-8">
                                 <a href="https://github.com/Gavin-Ho" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
                             </li>
-                            <li className="hover:text-[#312E28] mr-8">
+                            <li className="hover:text-[#4c7a47] mr-8">
                                 <a href="https://www.linkedin.com/in/gavinjsho" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
                             </li>
-                            <li className="hover:text-[#312E28] mr-8">
-                                <a href="" target="_blank" rel="noopener noreferrer"><MdEmail /></a>
+                            <li className="hover:text-[#4c7a47] mr-8">
+                                <a href="/#" target="_blank" rel="noopener noreferrer"><MdEmail /></a>
                             </li>
                         </ul>
                     </div>
