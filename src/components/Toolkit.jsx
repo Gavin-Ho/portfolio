@@ -1,4 +1,5 @@
 import React from "react";
+import SkillCard from "./SkillCard";
 
 
 export default function ToolKit() {
@@ -6,36 +7,33 @@ export default function ToolKit() {
     return (
         <div id="about" className="flex justify-center">
 
-            <div className="flex flex-col h-full w-[85%] max-w-5xl justify-center md:justify-between md:items-center">
+            <div className="flex flex-col h-full w-[85%] max-w-5xl">
 
 
-
-                <div className="w-full text-center">
-                    <h1>My Tool Box 🤹</h1>
+                <div className="w-full">
+                    <h1 className="text-4xl mx-12">My Toolbox 🤹</h1>
                 </div>
 
+                <div className="grid lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 grid-cols-2 my-16 items-end gap-x-8 gap-y-12">
 
-                <div className="flex justify-center items-center">
+                    <SkillCard title={"Basics"} imgSrc={"../images/basics.png"} imgAlt={"basics.png"} />
 
-                    <div className=" w-[10%] ease-linear transform hover:scale-110 transition duration-300">
-                        <img src="../images/basics.png" alt="basics"
-                            className=" "></img>
-                    </div>
+                    <SkillCard title={"React"} imgSrc={"../images/React-icon.svg"} imgAlt={"react-icon.svg"} />
 
-                    <div className=" w-[10%] ease-linear transform hover:scale-110 transition duration-300">
-                        <img src="../images/React-icon.svg" alt="react-icon"
-                            className=" "></img>
-                    </div>
+                    <SkillCard title={"TailwindCSS"} imgSrc={"../images/tailwindcss.png"} imgAlt={"tailwindcss.png"} />
 
-                    <div className=" w-[10%] ease-linear transform hover:scale-110 transition duration-300">
-                        <img src="../images/tailwindcss.png" alt="tailwindcss"
-                            className=" "></img>
-                    </div>
+                    <SkillCard title={"Responsive"} imgSrc={"../images/responsive.png"} imgAlt={"responsive.png"} />
 
-                    <div className=" w-[10%] ease-linear transform hover:scale-110 transition duration-300">
-                        <img src="../images/responsive.png" alt="tailwindcss"
-                            className=" "></img>
-                    </div>
+                    <SkillCard title={"Node.js"} imgSrc={"../images/nodejs.svg"} imgAlt={"nodejs.svg"} />
+
+                    <SkillCard title={"Git"} imgSrc={"../images/Git-Icon.svg"} imgAlt={"Git-Icon.svg"} />
+
+                    <SkillCard title={"SQL"} imgSrc={"../images/database-icon.png"} imgAlt={"database-icon.png"} />
+
+                    <SkillCard title={"Python"} imgSrc={"../images/Python-logo-notext.svg"} imgAlt={"Python-logo-notext.svg"} />
+
+                    <SkillCard title={"C++"} imgSrc={"../images/c++_icon.png"} imgAlt={"c++_icon.png"} />
+
 
                 </div>
 

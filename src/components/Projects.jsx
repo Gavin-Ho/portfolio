@@ -15,7 +15,7 @@ export default function Projects() {
 
 
                 <div className="text-center">
-                    <h1 className="text-4xl underline underline-offset-8 decoration-[#89aa84] decoration-4">Projects</h1>
+                    <h1 className="text-4xl">Projects</h1>
                 </div>
 
 
