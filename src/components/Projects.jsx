@@ -23,7 +23,7 @@ export default function Projects() {
 
 
                     <div data-aos="zoom-in-right" data-aos-duration="1500" className="w-[80%] md:w-[30%]">
-                        <img className="rounded-3xl" src="../images/wordle-ios-mockup.png" alt="Wordle-frontend"></img>
+                        <img className="rounded-3xl" src="../images/wordle-frontend_mockup.gif" alt="Wordle-frontend"></img>
                     </div>
 
 
@@ -76,7 +76,7 @@ export default function Projects() {
 
 
                     <div data-aos="zoom-in-left" data-aos-duration="1500" className="w-[100%] md:w-[45%]">
-                        <img className="rounded-3xl" src="../images/carrot-quest-mac-mockup.png" alt="Carrot Quest"></img>
+                        <img className="rounded-3xl" src="../images/carrot-quest_mockup.gif" alt="Carrot Quest"></img>
                     </div>
 
 
