@@ -5,6 +5,7 @@
   "dependencies": {
     "@animated-burgers/burger-arrow": "^1.1.2",
     "@animated-burgers/burger-squeeze": "^1.1.2",
+    "@babel/core": "^7.22.9",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
