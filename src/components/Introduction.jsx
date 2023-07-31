@@ -19,14 +19,15 @@ export default function Introduction() {
                 <div className="flex flex-col md:h-[40%] md:w-[55%] justify-center mb-6">
 
 
-                    <div className="">
-                        <h1>Hello! I'm Gavin ✌️</h1>
+                    <div className="flex">
+                        <div className="flex text-center">
+                            <h1>Hello! I'm Gavin ✌️</h1>
+                        </div>
                     </div>
 
 
-
                     <div className="my-5">
-                        Welcome to my portfolio! I'm a <span className="font-semibold text-[#73a86c]">full stack developer</span> based in Victoria, British Columbia.
+                        Welcome to my portfolio! I'm a <span className="text-[#73a86c] font-semibold">full stack developer</span> based in Victoria, British Columbia.
                         Check out a couple of my favourite personal projects below!
                     </div>
 
@@ -44,6 +45,8 @@ export default function Introduction() {
                             </li>
                         </ul>
                     </div>
+
+
                 </div>
 
 

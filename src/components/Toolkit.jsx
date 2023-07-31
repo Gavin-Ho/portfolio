@@ -10,8 +10,10 @@ export default function ToolKit() {
             <div className="flex flex-col h-full w-[85%] max-w-5xl">
 
 
-                <div className="w-full">
-                    <h1 className="text-4xl mx-12">My Toolbox 🤹</h1>
+                <div className="flex">
+                    <div className="flex text-center">
+                        <h1 className="mx-14">My Toolbox 🤹</h1>
+                    </div>
                 </div>
 
                 <div className="grid lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 grid-cols-2 my-16 items-end gap-x-8 gap-y-12">
