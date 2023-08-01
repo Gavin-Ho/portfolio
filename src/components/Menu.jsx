@@ -50,13 +50,13 @@ export default function Menu() {
             >
                 <ul className="text-3xl text-white text-center">
                     <li className="mx-4 my-12">
-                        <a onClick={handleClick} href="#projects">Projects</a>
+                        <a onClick={handleClick} href="#projects" className="hover:text-[#4c7a47]">Projects</a>
                     </li>
                     <li className="mx-4 my-12">
-                        <a onClick={handleClick} href="#about">About Me</a>
+                        <a onClick={handleClick} href="#about" className="hover:text-[#4c7a47]">About Me</a>
                     </li>
                     <li className="mx-4 my-12">
-                        <a onClick={handleClick} href="#contact">Contact</a>
+                        <a onClick={handleClick} href="#contact" className="hover:text-[#4c7a47]">Contact</a>
                     </li>
                 </ul>
             </div>

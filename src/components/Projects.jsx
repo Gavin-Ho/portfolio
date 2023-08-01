@@ -15,12 +15,12 @@ export default function Projects() {
 
                 <div className="flex justify-center">
                     <div className="flex text-center">
-                        <h1 className="">Projects</h1>
+                        <h1>Projects</h1>
                     </div>
                 </div>
 
 
-                <div className="flex flex-col w-full md:flex-row md:justify-between items-center mt-32">
+                <div className="flex flex-col w-full md:flex-row md:justify-between items-center mt-24">
 
 
                     <div data-aos="zoom-in-right" data-aos-duration="1500" className="w-[80%] md:w-[30%]">
@@ -52,16 +52,16 @@ export default function Projects() {
 
                         <div className="">
                             <ul className="flex flex-row justify-center md:justify-start items-center text-sm md:text-md">
-                                <li className="border-2 rounded-[2rem] mr-2 border-[#7e8e7c79]">
+                                <li className="border-2 rounded-[2rem] mr-2 border-[#8b8b8b79]">
                                     <div className="px-3 py-1 md:px-4 md:py-2">React</div>
                                 </li>
-                                <li className="border-2 rounded-[2rem] mr-2 border-[#7e8e7c79]">
-                                    <div className="px-3 py-1 md:px-4 md:py-2">API</div>
+                                <li className="border-2 rounded-[2rem] mr-2 border-[#8b8b8b79]">
+                                    <div className="px-3 py-1 md:px-4 md:py-2">Express.js</div>
                                 </li>
-                                <li className="border-2 rounded-[2rem] mr-2 border-[#7e8e7c79]">
+                                <li className="border-2 rounded-[2rem] mr-2 border-[#8b8b8b79]">
                                     <div className="px-3 py-1 md:px-4 md:py-2">Node.js</div>
                                 </li>
-                                <li className="border-2 rounded-[2rem] mr-2 border-[#7e8e7c79]">
+                                <li className="border-2 rounded-[2rem] mr-2 border-[#8b8b8b79]">
                                     <div className="px-3 py-1 md:px-4 md:py-2">TailWind</div>
                                 </li>
                             </ul>
@@ -73,7 +73,7 @@ export default function Projects() {
 
 
 
-                <div className="flex flex-col w-full md:flex-row-reverse md:justify-between items-center mt-32">
+                <div className="flex flex-col w-full md:flex-row-reverse md:justify-between items-center mt-24">
 
 
                     <div data-aos="zoom-in-left" data-aos-duration="1500" className="w-[100%] md:w-[45%]">
@@ -84,7 +84,7 @@ export default function Projects() {
                     <div data-aos="zoom-in-right" data-aos-duration="1500" className="flex flex-col h-full w-full md:w-[45%] text-center md:text-right justify-center">
 
 
-                        <h2 className="my-4">
+                        <h2 className="my-4 text-2xl">
                             Carrot Quest Minigame
                         </h2>
 
@@ -106,10 +106,10 @@ export default function Projects() {
 
                         <div className="">
                             <ul className="flex flex-row justify-center md:justify-end items-center text-sm md:text-md">
-                                <li className="border-2 rounded-[2rem] ml-2 border-[#7e8e7c79]">
+                                <li className="border-2 rounded-[2rem] ml-2 border-[#8b8b8b79]">
                                     <div className="px-3 py-1 md:px-4 md:py-2">React</div>
                                 </li>
-                                <li className="border-2 rounded-[2rem] ml-2 border-[#7e8e7c79]">
+                                <li className="border-2 rounded-[2rem] ml-2 border-[#8b8b8b79]">
                                     <div className="px-3 py-1 md:px-4 md:py-2">TailWind</div>
                                 </li>
                             </ul>

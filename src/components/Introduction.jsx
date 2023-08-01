@@ -21,7 +21,7 @@ export default function Introduction() {
 
                     <div className="flex">
                         <div className="flex text-center">
-                            <h1>Hello! I'm Gavin ✌️</h1>
+                            <p className="text-3xl font-semibold text-[#312E28]">Hello! I'm Gavin ✌️</p>
                         </div>
                     </div>
 

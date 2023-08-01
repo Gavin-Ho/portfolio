@@ -1,8 +1,0 @@
-.burger .burger-lines,
-.burger .burger-lines:after,
-.burger .burger-lines:before {
-    background-color: #89aa84;
-    height: 0.45em;
-    width: 3em;
-    font-size: 12px;
-}

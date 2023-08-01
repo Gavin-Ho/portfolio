@@ -9,26 +9,27 @@ export default function AboutMe() {
     }, []);
 
     return (
-        <div id="about" className="flex justify-center">
+        <div id="about" className="flex flex-col justify-center items-center">
+
+            <div className="flex justify-center">
+                <div className="flex text-center">
+                    <h1>About</h1>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-duration="2000" className="flex flex-col md:flex-row h-full w-[85%] max-w-5xl justify-center md:justify-between md:items-center">
 
 
-            <div className="flex flex-col md:flex-row h-full w-[85%] max-w-5xl justify-center md:justify-between md:items-center">
 
-
-
-                <div data-aos="fade-up" data-aos-duration="2000" className="flex w-full md:w-[35%] my-12 justify-center items-center">
+                <div className="flex w-full md:w-[35%] my-12 justify-center items-center">
                     <img className="text-center w-[350px] md:w-full avatar-wobble" src="../images/me.png" alt="Me" />
                 </div>
 
 
-                <div data-aos="fade-up" data-aos-duration="2000" className="flex flex-col md:h-[40%] md:w-[55%] justify-center">
+                <div className="flex flex-col md:h-[40%] md:w-[55%] justify-center">
 
 
-                    <div className="flex">
-                        <div className="flex text-center">
-                            <h1>About Me</h1>
-                        </div>
-                    </div>
+
 
                     <div className="text-lg">
                         <div className="my-4">
