@@ -36,10 +36,17 @@ export default function ContactMe() {
 
 
                 <div className="md:w-[50%]">
-                    <form method="POST" name="contact" className="flex flex-col" data-netlify="true" onSubmit="submit">
+                    <form method="post" name="contact" className="flex flex-col" data-netlify="true" action="/">
+
+                        <input type="hidden" name="form-name" value="contact" />
+                        <p hidden>
+                            <label>
+                                Don't fill this out if you're human: <input name="bot-field" />
+                            </label>
+                        </p>
 
                         <input className="my-2 px-2 border-2 border-[#89aa84] rounded-lg" type="text" name="name" placeholder="Name" />
-                        <input className="my-2 px-2 border-2 border-[#89aa84] rounded-lg" type="text" name="email" placeholder="Email Address" />
+                        <input className="my-2 px-2 border-2 border-[#89aa84] rounded-lg" type="email" name="email" placeholder="Email Address" />
                         <textarea className="my-2 px-2 border-2 border-[#89aa84] rounded-lg" type="text" name="message" placeholder="Message" rows="6" />
 
                         <div className="my-2">
