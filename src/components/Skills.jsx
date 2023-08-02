@@ -2,12 +2,12 @@ import React from "react";
 import SkillCard from "./SkillCard";
 
 
-export default function ToolKit() {
+export default function Skills() {
 
     return (
         <div id="about" className="flex justify-center">
 
-            <div className="flex flex-col h-full w-[85%] max-w-5xl">
+            <div className="flex flex-col h-full w-[45%] max-w-5xl">
 
 
                 <div className="flex justify-center">

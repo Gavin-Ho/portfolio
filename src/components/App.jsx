@@ -4,7 +4,7 @@ import Introduction from "./Introduction";
 import AboutMe from "./AboutMe";
 import Projects from "./Projects";
 import PageDivider from "./PageDivider";
-import ToolKit from "./Toolkit";
+import Skills from "./Skills";
 import Footer from "./Footer";
 import ContactMe from "./ContactMe";
 
@@ -19,7 +19,7 @@ export default function App() {
             <PageDivider />
             <AboutMe />
             <PageDivider />
-            <ToolKit />
+            <Skills />
             <PageDivider />
             <ContactMe />
             <Footer />

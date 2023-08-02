@@ -41,7 +41,7 @@ export default function Introduction() {
                                 <a href="https://www.linkedin.com/in/gavinjsho" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
                             </li>
                             <li className="hover:text-[#4c7a47] mr-8">
-                                <a href="/#" target="_blank" rel="noopener noreferrer"><MdEmail /></a>
+                                <a href="mailto:gavinjsho@gmail.com" target="_blank" rel="noopener noreferrer"><MdEmail /></a>
                             </li>
                         </ul>
                     </div>

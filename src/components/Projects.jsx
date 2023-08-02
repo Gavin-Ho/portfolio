@@ -23,12 +23,12 @@ export default function Projects() {
                 <div className="flex flex-col w-full md:flex-row md:justify-between items-center mt-24">
 
 
-                    <div data-aos="zoom-in-right" data-aos-duration="1500" className="w-[80%] md:w-[30%]">
+                    <div data-aos="zoom-in-right" data-aos-duration="1000" className="w-[80%] md:w-[30%]">
                         <img className="rounded-3xl" src="../images/wordle-frontend_mockup.gif" alt="Wordle-frontend"></img>
                     </div>
 
 
-                    <div data-aos="zoom-in-left" data-aos-duration="1500" className="flex flex-col h-full w-full md:w-[60%] text-center md:text-left justify-center">
+                    <div data-aos="zoom-in-left" data-aos-duration="1000" className="flex flex-col h-full w-full md:w-[60%] text-center md:text-left justify-center">
                         <h2 className="my-4">
                             Wordle Tournament Tracker
                         </h2>

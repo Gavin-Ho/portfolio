@@ -27,7 +27,7 @@ export default function ContactMe() {
                                 <a href="https://www.linkedin.com/in/gavinjsho" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
                             </li>
                             <li className="hover:text-[#4c7a47] mr-8">
-                                <a href="/#" target="_blank" rel="noopener noreferrer"><MdEmail /></a>
+                                <a href="mailto:gavinjsho@gmail.com" target="_blank" rel="noopener noreferrer"><MdEmail /></a>
                             </li>
                         </ul>
                     </div>
@@ -36,7 +36,7 @@ export default function ContactMe() {
 
 
                 <div className="md:w-[50%]">
-                    <form method="POST" name="contact" className="flex flex-col">
+                    <form method="POST" name="contact" className="flex flex-col" data-netlify="true" onSubmit="submit">
 
                         <input className="my-2 px-2 border-2 border-[#89aa84] rounded-lg" type="text" name="name" placeholder="Name" />
                         <input className="my-2 px-2 border-2 border-[#89aa84] rounded-lg" type="text" name="email" placeholder="Email Address" />
