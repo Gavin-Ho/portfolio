@@ -36,31 +36,23 @@ export default function ContactMe() {
 
 
                 <div className="md:w-[50%]">
-                    <form
-                        method='POST'
-                        name='contactform'
-                        className='contactForm'>
+                    <form method="post" name="contactform" className="contactForm" data-netlify="true" action="/">
+                        <div className="flex flex-col">
+                            <input type="hidden" name="form-name" value="contactForm" />
+                            <p hidden>
+                                <label>
+                                    Don't fill this out if you're human: <input name="bot-field" />
+                                </label>
+                            </p>
 
-                        <input
-                            type='hidden'
-                            name='form-name'
-                            value='contactForm' />
+                            <input className="my-2 px-2 border-2 border-[#89aa84] rounded-lg" type="text" name="name" placeholder="Name" />
+                            <input className="my-2 px-2 border-2 border-[#89aa84] rounded-lg" type="email" name="email" placeholder="Email Address" />
+                            <textarea className="my-2 px-2 border-2 border-[#89aa84] rounded-lg" type="text" name="message" placeholder="Message" rows="6" />
 
-                        <input
-                            type='text'
-                            name='name'
-                            placeholder='Enter your name' />
-
-                        <input
-                            type='email'
-                            name='email'
-                            placeholder='Enter your email' />
-
-                        <textarea
-                            name='message'
-                            placeholder='Messaage'></textarea>
-
-                        <button type='submit'>Submit</button>
+                            <div className="my-2">
+                                <button className="py-1 px-3 border-2 border-[#73a86c] bg-[#73a86c] hover:bg-[#4c7a47] hover:border-[#4c7a47] text-white rounded-lg" type="submit">Submit</button>
+                            </div>
+                        </div>
                     </form>
 
                 </div>
