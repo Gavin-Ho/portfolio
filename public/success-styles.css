@@ -1,0 +1,22 @@
+/* Success Page styles.css */
+
+h2 {
+    color: #73a86c;
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 2rem;
+}
+
+
+.centered-container {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 100px;
+}
+
+.centered-container h1,
+.centered-container p,
+.centered-container button {
+    font-family: 'Montserrat', sans-serif;
+}
