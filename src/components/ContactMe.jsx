@@ -36,7 +36,7 @@ export default function ContactMe() {
 
 
                 <div className="md:w-[50%]">
-                    <form method="post" name="contactform" className="contactForm" data-netlify="true" action="confirmation-page.html" netlify-honeypot="bot-field">
+                    <form method="post" name="contactform" className="contactForm" data-netlify="true" action="success-page.html" netlify-honeypot="bot-field">
                         <div className="flex flex-col">
                             <input type="hidden" name="form-name" value="contactForm" />
                             <p hidden>
