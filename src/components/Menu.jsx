@@ -53,7 +53,10 @@ export default function Menu() {
                         <a onClick={handleClick} href="#projects" className="hover:text-[#4c7a47]">Projects</a>
                     </li>
                     <li className="mx-4 my-12">
-                        <a onClick={handleClick} href="#about" className="hover:text-[#4c7a47]">About Me</a>
+                        <a onClick={handleClick} href="#about" className="hover:text-[#4c7a47]">About</a>
+                    </li>
+                    <li className="mx-4 my-12">
+                        <a onClick={handleClick} href="#skills" className="hover:text-[#4c7a47]">Skills</a>
                     </li>
                     <li className="mx-4 my-12">
                         <a onClick={handleClick} href="#contact" className="hover:text-[#4c7a47]">Contact</a>

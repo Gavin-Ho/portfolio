@@ -11,8 +11,8 @@ export default function ContactMe() {
 
             <div className="flex flex-col md:flex-row h-full w-[85%] max-w-5xl justify-center md:justify-between my-16">
 
-                <div className="md:w-[35%]">
-                    <h2 className="text-[#73a86c] mb-6">Contact Me</h2>
+                <div className="md:w-[40%]">
+                    <h2 className="text-[#73a86c] text-3xl mb-6">Contact Me</h2>
 
 
                     If you have questions about me or my projects, you can find me on social media or you can send a message here!

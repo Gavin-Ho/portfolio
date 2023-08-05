@@ -11,7 +11,7 @@ export default function Projects() {
 
     return (
         <div id="projects" className="flex justify-center">
-            <div className="flex flex-col w-[90%] max-w-5xl">
+            <div className="flex flex-col w-[90%] max-w-5xl my-12">
 
                 <div className="flex justify-center">
                     <div className="flex text-center">
@@ -23,7 +23,7 @@ export default function Projects() {
                 <div className="flex flex-col w-full md:flex-row md:justify-between items-center mt-24">
 
 
-                    <div data-aos="zoom-in-right" data-aos-duration="1000" className="w-[80%] md:w-[30%]">
+                    <div data-aos="zoom-in-right" data-aos-duration="1000" className="flex w-[80%] md:w-[30%] justify-center">
                         <img className="rounded-3xl" src="../images/wordle-frontend_mockup.gif" alt="Wordle-frontend"></img>
                     </div>
 
@@ -73,15 +73,15 @@ export default function Projects() {
 
 
 
-                <div className="flex flex-col w-full md:flex-row-reverse md:justify-between items-center mt-24">
+                <div className="flex flex-col w-full md:flex-row-reverse md:justify-between justify-center items-center mt-24">
 
 
-                    <div data-aos="zoom-in-left" data-aos-duration="1500" className="w-[100%] md:w-[45%]">
+                    <div data-aos="zoom-in-left" data-aos-duration="1000" className="flex w-[100%] md:w-[45%] justify-center">
                         <img className="rounded-3xl" src="../images/carrot-quest_mockup.gif" alt="Carrot Quest"></img>
                     </div>
 
 
-                    <div data-aos="zoom-in-right" data-aos-duration="1500" className="flex flex-col h-full w-full md:w-[45%] text-center md:text-right justify-center">
+                    <div data-aos="zoom-in-right" data-aos-duration="1000" className="flex flex-col h-full w-full md:w-[45%] text-center md:text-right justify-center">
 
 
                         <h2 className="my-4 text-2xl">

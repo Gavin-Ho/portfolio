@@ -5,9 +5,9 @@ import SkillCard from "./SkillCard";
 export default function Skills() {
 
     return (
-        <div id="about" className="flex justify-center">
+        <div id="skills" className="flex justify-center">
 
-            <div className="flex flex-col h-full w-[45%] max-w-5xl">
+            <div className="flex flex-col h-full xl:w-[50%] md:w-[65%] sm:w-[75%] w-[80%] max-w-5xl my-12">
 
 
                 <div className="flex justify-center">
@@ -17,7 +17,7 @@ export default function Skills() {
                 </div>
 
                 <div data-aos="fade-up" data-aos-duration="2000" >
-                    <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-2 my-16 items-end gap-x-12 gap-y-16">
+                    <div className="grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-2 my-16 items-end gap-x-12 gap-y-16">
 
                         <SkillCard title={"Basics"} imgSrc={"../images/basics.png"} imgAlt={"basics.png"} />
 
