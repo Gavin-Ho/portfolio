@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import '../styles.css';
+import { FaGithub } from "react-icons/fa";
 
 export default function Projects() {
 
@@ -45,7 +46,11 @@ export default function Projects() {
                             </button>
                             <span className="mr-4">|</span>
                             <button className="hover:underline underline-offset-8 decoration-4 decoration-[#89aa84] mr-4">
-                                <a href="https://github.com/Gavin-Ho/wordle-tracker" target="_blank" rel="noopener noreferrer">GITHUB</a>
+                                <a href="https://github.com/Gavin-Ho/wordle-tracker" target="_blank" rel="noopener noreferrer" className="flex items-center"><FaGithub />&nbsp;FRONTEND</a>
+                            </button>
+                            <span className="mr-4">|</span>
+                            <button className="hover:underline underline-offset-8 decoration-4 decoration-[#89aa84] mr-4">
+                                <a href="https://github.com/Gavin-Ho/wordle-api" target="_blank" rel="noopener noreferrer" className="flex items-center"><FaGithub />&nbsp;API</a>
                             </button>
                         </div>
 
@@ -99,7 +104,7 @@ export default function Projects() {
                             </button>
                             <span className="mr-4 md:mr-0  md:ml-4">|</span>
                             <button className="hover:underline underline-offset-8 decoration-4 decoration-[#89aa84] mr-4 md:mr-0  md:ml-4">
-                                <a href="https://github.com/Gavin-Ho/react-sky-minigame" target="_blank" rel="noopener noreferrer">GITHUB</a>
+                                <a href="https://github.com/Gavin-Ho/react-sky-minigame" target="_blank" rel="noopener noreferrer" className="flex items-center"><FaGithub />&nbsp;GITHUB</a>
                             </button>
                         </div>
 

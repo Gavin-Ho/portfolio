@@ -33,7 +33,7 @@ export default function Introduction() {
 
 
                     <div className="my-5">
-                        Welcome to my portfolio! I'm a <span className="text-[#73a86c] font-medium">full stack developer</span> and <span className="text-[#73a86c] font-medium">engineer</span> based in Victoria, British Columbia.
+                        Welcome to my portfolio! I'm a <span className="text-[#73a86c] font-medium">developer</span> and <span className="text-[#73a86c] font-medium">engineer</span> based in Victoria, British Columbia.
                         Check out a couple of my favourite personal projects below!
                     </div>
 
