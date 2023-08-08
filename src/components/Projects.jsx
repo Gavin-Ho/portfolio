@@ -42,7 +42,7 @@ export default function Projects() {
 
                         <div className="flex flex-row justify-center md:justify-start items-center text-sm font-semibold my-6">
                             <button className="hover:underline underline-offset-8 decoration-4 decoration-[#89aa84] mr-4">
-                                <a href="https://wordle-tourney.netlify.app/" target="_blank" rel="noopener noreferrer">VIEW LIVE</a>
+                                <a href="https://wordletourney.gavin-ho.com/" target="_blank" rel="noopener noreferrer">VIEW LIVE</a>
                             </button>
                             <span className="mr-4">|</span>
                             <button className="hover:underline underline-offset-8 decoration-4 decoration-[#89aa84] mr-4">
@@ -100,7 +100,7 @@ export default function Projects() {
 
                         <div className="flex flex-row justify-center md:justify-end items-center text-sm font-semibold my-6">
                             <button className="hover:underline underline-offset-8 decoration-4 decoration-[#89aa84] mr-4 md:mr-0 md:ml-4">
-                                <a href="https://carrot-quest.netlify.app/" target="_blank" rel="noopener noreferrer">VIEW LIVE</a>
+                                <a href="https://carrotquest.gavin-ho.com/" target="_blank" rel="noopener noreferrer">VIEW LIVE</a>
                             </button>
                             <span className="mr-4 md:mr-0  md:ml-4">|</span>
                             <button className="hover:underline underline-offset-8 decoration-4 decoration-[#89aa84] mr-4 md:mr-0  md:ml-4">
