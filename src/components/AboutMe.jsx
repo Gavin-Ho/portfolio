@@ -33,7 +33,7 @@ export default function AboutMe() {
                     <div className="text-lg my-12">
                         <div className="my-4">
                             Hello again! I recently graduated from the <span className="font-medium text-[#73a86c]">University of Victoria</span> with a bachelor's degree
-                            in Mechanical Engineering 🤖 and 20 months of co-op experience. Currently I am working as a Process Engineer II
+                            in Mechanical Engineering 🤖 and 20 months of co-op experience. Currently I am working as a Process Engineer
                             at <span className="font-medium text-[#73a86c]">Redlen Technologies.</span>
                         </div>
 

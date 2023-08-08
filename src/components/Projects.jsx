@@ -95,7 +95,7 @@ export default function Projects() {
 
 
                         <p className="">
-                            An arcade-style minigame where the user controls a pig-themed air balloon to collect carrots in the sky.
+                            An arcade-style minigame where the user controls a pig-themed air balloon to collect carrots in the sky. Optimized for desktop only.
                         </p>
 
                         <div className="flex flex-row justify-center md:justify-end items-center text-sm font-semibold my-6">
